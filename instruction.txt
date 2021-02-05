@@ -1,0 +1,6 @@
+steps to launch wordpress :-
+******************************
+step 1. kubectl create -f dbsecret.yml
+step 2. kubectl create -f dbport.yml
+step 3. kubectl create -f wordpresspod.yml
+step 4. kubectl create -f nodeport_svc.yml
